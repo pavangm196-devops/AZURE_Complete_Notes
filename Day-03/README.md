@@ -69,7 +69,27 @@ To manage things at scale, Azure uses four levels of scope:
 
 
 
-  ## ***6. SUMMARY OF DAY 03 💡***
+###  ***The Azure Management Hierarchy***
+This image shows how Azure organizes everything. It starts from **Management Groups** at the top, down to the individual **Resources** at the bottom.
+
+<img width="433" height="281" alt="image" src="https://github.com/user-attachments/assets/09079867-f9ef-446f-9031-58c9cbdb7a26" />
+
+
+###   ***How Azure Resource Manager (ARM) Works***
+This image explains that no matter if you use the **Portal, CLI, or PowerShell,** your request always goes through **ARM** before it creates a resource.
+
+
+
+<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/34acc532-13cf-4223-9209-5d274e06b424" />
+
+
+
+
+
+
+
+
+ ## ***6. SUMMARY OF DAY 03 💡***
 
 **Resource:** The "what" you are building.
 
